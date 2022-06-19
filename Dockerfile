@@ -1,17 +1,3 @@
-FROM python:3.9
-ENV VENV_PATH="/venv"
-ENV PATH="$VENV_PATH/bin:$PATH"
-WORKDIR /app
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends apt-utils && \
-    apt-get upgrade -y && \
-    apt-get install ffmpeg tesseract-ocr tree -y && \
-    apt-get autoclean
-RUN pip install --upgrade poetry
-RUN python -m venv /venv
-COPY . .
-RUN tree /home/runner/work/tgcf-on-gh-action
-RUN poetry build && \
-    /venv/bin/pip install --upgrade pip wheel setuptools &&\
-    /venv/bin/pip install dist/*.whl
+FROM aahnik/tgcf
+
 CMD tgcf --loud
