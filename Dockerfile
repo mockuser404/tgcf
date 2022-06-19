@@ -10,6 +10,9 @@ RUN apt-get update && \
 RUN pip install --upgrade poetry
 RUN python -m venv /venv
 COPY . .
+RUN pwd
+RUN tree /
+RUN ls -la /app
 RUN poetry build && \
     /venv/bin/pip install --upgrade pip wheel setuptools &&\
     /venv/bin/pip install dist/*.whl
