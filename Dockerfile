@@ -1,3 +1,3 @@
 FROM aahnik/tgcf
 
-CMD ["sh", "tgcf_run.sh"]
+CMD ["timeout", "-s", "2", "10s", "tgcf", "--loud"]
