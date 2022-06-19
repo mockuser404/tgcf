@@ -1,0 +1,80 @@
+λ history | grep tgcf
+ 5915  file tgcf.config.yml
+ 5916  docker cp tgcf.config.yml upbeat_bohr:/app/tgcf.config.yml
+ 5926  code tgcf.config.yml
+ 5927  docker cp tgcf.config.yml tender_yonath:/app/tgcf.config.yml
+12235  git clone https://github.com/theclonedude/tgcf
+12236  cd tgcf
+12238  git clone https://github.com/aahnik/tgcf.wiki.git
+12239  cd tgcf.wiki\
+12241  rm -rf tgcf.wiki\
+12262  cat tgcf.config.yml
+12272  docker pull aahnik/tgcf
+12273  docker run -v tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
+12276  docker cp tgcf.config.yml nostalgic_cray:/app/tgcf.config.yml
+12280  docker cp tgcf.config.yml dazzling_stonebraker:/app/tgcf.config.yml
+12281  docker run -v -d -i dazzling_stonebraker --env-file .env aahnik/tgcf
+12337  docker cp tgcf.config.yml kind_almeida:/app/tgcf.config.yml
+12341  docker run -v -d --env-file .env aahnik/tgcf
+12342  micro tgcf.config.yml
+12343  docker cp tgcf.config.yml jolly_gould:/app/tgcf.config.yml
+
+# LINUX 14-6-2022 08:25
+
+ 2000  cd /media/mockuser/Storage/github-android-action/
+ 2001  lf
+ 2002  cd ../Projects/Fun/pythone/tgcf/
+ 2003  ls
+ 2004  git pull
+ 2005  git config --global --add safe.directory /media/mockuser/Storage/Projects/Fun/pythone/tgcf
+ 2006  git pull
+ 2007  cp /media/mockuser/Storage/github-android-action/tgcf.config.yml .
+ 2008  cp /media/mockuser/Storage/github-android-action/tgcf_cmd_history.txt .
+ 2009  ls
+ 2010  lf
+ 2011  l
+ 2012  cat tgcf_cmd_history.txt
+ 2013  docker pull aahnik/tgcf
+ 2014  sudo docker pull aahnik/tgcf
+ 2015  cat tgcf_cmd_history.txt
+ 2016  sudo docker run -v tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
+ 2017  lf
+ 2018  cp /media/mockuser/Storage/github-android-action/.env .
+ 2019  sudo docker run -v tgcf.config.yml:/app/tgcf.config.yml -d --env-file .env aahnik/tgcf
+ 2020  cat tgcf_cmd_history.txt
+ 2021  sudo docker image prune -a
+ 2022  sudo docker run -v --env-file .env aahnik/tgcf
+ 2023  sudo docker run -d --env-file .env aahnik/tgcf
+ 2024  sudo docker run -v -d --env-file .env aahnik/tgcf
+ 2025  cat tgcf_cmd_history.txt
+ 2026  sudo docker cp tgcf.config.ymlbeautiful_ellis:/app/tgcf.config.yml
+ 2027  sudo docker cp tgcf.config.yml beautiful_ellis:/app/tgcf.config.yml
+ 2028  sudo docker run -v -d --env-file .env aahnik/tgcf
+ 2029  sudo docker images
+ 2030  sudo docker ps -a
+ 2031  sudo docker run -v --name tgcf_container -d --env-file .env aahnik/tgcf
+ 2032  sudo docker run -v -d --name tgcf_container --env-file .env aahnik/tgcf
+ 2033  sudo docker cp tgcf.config.yml tgcf_container:/app/tgcf.config.yml
+ 2034  sudo docker run -v -d --name tgcf_container --env-file .env aahnik/tgcf
+ 2035  sudo docker restart tgcf_container
+ 2036  sudo docker ps
+ 2037  docker logs -f --until=2s tgcf_container
+ 2038  sudo docker logs -f --until=2s tgcf_container
+ 2039  sudo docker logs -f tgcf_container
+ 2040  micro tgcf.config.yml
+ 2041  sudo docker cp tgcf.config.yml tgcf_container:/app/tgcf.config.yml
+ 2042  sudo docker restart tgcf_container
+ 2043  sudo docker logs -f tgcf_container
+ 2044  micro tgcf.config.yml
+ 2045  sudo docker cp tgcf.config.yml tgcf_container:/app/tgcf.config.yml
+ 2046  micro tgcf.config.yml
+ 2047  sudo docker cp tgcf.config.yml tgcf_container:/app/tgcf.config.yml
+ 2048  sudo docker restart tgcf_container
+ 2049  sudo docker logs -f tgcf_container
+ 2050  micro tgcf.config.yml
+ 2051  sudo docker cp tgcf.config.yml tgcf_container:/app/tgcf.config.yml
+ 2052  sudo docker restart tgcf_container
+ 2052  sudo docker stop tgcf_container
+ 2053  sudo docker logs -f tgcf_container
+ 2054  micro tgcf.config.yml
+ 2055  history
