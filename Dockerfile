@@ -1,3 +1,3 @@
 FROM aahnik/tgcf
 
-CMD tgcf --loud
+CMD ["sh", "tgcf_run.sh"]
