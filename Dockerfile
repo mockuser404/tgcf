@@ -1,3 +1,5 @@
 FROM aahnik/tgcf
 
-CMD ["bash", "-c", "timeout -s 2 10s tgcf --loud || ( [[ $? -eq 124 ]] && echo \"WARNING: Timeout reached, but that's OK\" )"]
+# https://stackoverflow.com/a/60996259/8608146
+# man timeout
+CMD ["bash", "-c", "timeout -s 2 355m tgcf --loud || ( [[ $? -eq 124 ]] && echo \"WARNING: Timeout reached, but that's OK\" )"]
