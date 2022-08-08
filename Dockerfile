@@ -1,4 +1,4 @@
-FROM aahnik/tgcf
+FROM ghcr.io/mockuser404/tgcf
 
 # https://stackoverflow.com/a/60996259/8608146
 # man timeout
